@@ -1,5 +1,5 @@
 const Web3 = require('web3')
-const compiledContract = require('../compile')
+const compiledContract = require('../compile').Inbox
 const ganache = require('ganache-cli')
 
 const provider = ganache.provider()
